@@ -1,0 +1,4 @@
+<!-- Launch PLC Program --> 
+<launch>
+  <node pkg="ethercat_rw" type="ethercat_rw_node" name="ecat_rw" launch-prefix="sudo" output="screen" />
+</launch>
